@@ -1,3 +1,26 @@
-# Sentiment-Analysis-of-Financial-News-for-Stock-Market
-Sentiment analysis on financial news using NLP and TensorFlow. Includes preprocessing, FinBERT-based classification, and correlation with stock price trends. Built for real-world financial insights and deployment readiness.
-In this project, I developed a comprehensive sentiment analysis system focused on financial news, combining advanced Natural Language Processing (NLP) techniques with deep learning using TensorFlow and Keras. I gained practical experience in text preprocessing methods such as tokenization, cleaning, and TF-IDF vectorization, while also leveraging pre-trained transformer models like FinBERT for effective sentiment classification. I performed exploratory data analysis using visual tools like histograms, word clouds, and bi-gram charts to understand the structure and common patterns in the text data. A key aspect of the project involved aligning sentiment-labeled news with stock price movements using APIs like Yahoo Finance, enabling me to analyze how market sentiment influences financial behavior. I further enhanced the model’s performance through hyperparameter tuning with Keras Tuner and evaluated it using metrics like accuracy and F1 score. Beyond the technical execution, this project strengthened my ability to work with real-world datasets, integrate AI into financial domains, and communicate insights through well-structured visualizations. It also taught me how to build clean, modular, and deployment-ready code—making this a strong addition to my portfolio and a solid foundation for future work in AI and data science.
+Sentiment Analysis of Financial News for Stock Market Prediction
+This project leverages Natural Language Processing (NLP) and Deep Learning to analyze the sentiment of financial news articles and predict the likely market trend associated with them. The ultimate goal is to assist in understanding how news headlines might influence investor sentiment and subsequently affect stock prices.
+Project Overview
+We built a sentiment analysis pipeline that:
+Preprocesses financial news headlines.
+Converts text to numerical form using GloVe word embeddings.
+Trains a neural network using CNN + Bidirectional LSTM to classify the sentiment as positive or negative.
+Visualizes performance using confusion matrix, accuracy score, ROC curve, and more.
+This can be a useful tool for financial analysts, traders, and researchers who want to quantify the emotional tone in market-related news.
+| Technology               | Description                                                        |
+| ------------------------ | ------------------------------------------------------------------ |
+| **Python**               | Core programming language for scripting and modeling               |
+| **TensorFlow & Keras**   | Deep learning framework used to build and train the neural network |
+| **NLTK**                 | For text preprocessing (stopword removal, tokenization, etc.)      |
+| **GloVe Embeddings**     | Pretrained word vectors used to convert text into dense vectors    |
+| **Scikit-learn**         | For performance evaluation (accuracy, confusion matrix, ROC AUC)   |
+| **Matplotlib & Seaborn** | Data visualization libraries                                       |
+| **Google Colab**         | Development environment used for training and experimentation      |
+Sample Results
+Test Accuracy: 78%
+
+AUC Score: 0.78
+
+Model: CNN + Bidirectional LSTM
+
+Input Representation: GloVe word embeddings (300d)
