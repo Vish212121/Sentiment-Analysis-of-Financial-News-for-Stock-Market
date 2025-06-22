@@ -16,11 +16,10 @@ This can be a useful tool for financial analysts, traders, and researchers who w
 | **Scikit-learn**         | For performance evaluation (accuracy, confusion matrix, ROC AUC)   |
 | **Matplotlib & Seaborn** | Data visualization libraries                                       |
 | **Google Colab**         | Development environment used for training and experimentation      |
+
+
 Sample Results
 Test Accuracy: 78%
-
 AUC Score: 0.78
-
 Model: CNN + Bidirectional LSTM
-
 Input Representation: GloVe word embeddings (300d)
