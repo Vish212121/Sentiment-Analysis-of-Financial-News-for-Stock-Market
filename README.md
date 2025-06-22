@@ -18,8 +18,12 @@ This can be a useful tool for financial analysts, traders, and researchers who w
 | **Google Colab**         | Development environment used for training and experimentation      |
 
 
-Sample Results
+Sample Results 
+
 Test Accuracy: 78%
+
 AUC Score: 0.78
+
 Model: CNN + Bidirectional LSTM
+
 Input Representation: GloVe word embeddings (300d)
